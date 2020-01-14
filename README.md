@@ -2,10 +2,11 @@
 Sends Anime notification from https://www17.gogoanimes.tv website. You can manage your own anime list through the bot. You can also share this with friends or on groups.
 
 Prerequisites:
+```bash
 pip install pymongo
 pip install telegram
 pip install telegram-ext
-
+```
 MongoDB:
 Create 'AnimeNotifier' database
 Add 'animelist' and 'logs' as collections
